@@ -1,0 +1,13 @@
+h1 {
+    color: purple;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+dd {
+    font-size: 18px;
+    color: green;
+}
