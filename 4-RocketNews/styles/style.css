@@ -1,8 +1,8 @@
 :root {
     --body-bg-color: #121214;
-    --text-color: #E1E1E6;
-    --title-color: #04D361;
-    --form-color: #A8A8A8;
+    --text-color: #e1e1e6;
+    --title-color: #04d361;
+    --form-color: #a8a8a8;
     --bg-button-color: #8257e5;
 }
 
@@ -20,10 +20,68 @@
 #logo {
     width: 390px;
     height: 100px;
-    margin: 50px 30px;
+    margin: 50px 36px;
 }
 #bg-img {
-    width: 1200px;
+    width: 700px;
     height: 100vh;
     float: right;
+}
+.description {
+    width: 650px;
+    margin: 50px 36px;
+    
+}
+.description h2,
+.description p {
+    margin: 9px;
+}
+.description h2 {
+    font-family: 'Work Sans', sans-serif;
+}
+.description p {
+    font-family: 'spartan', sans-serif;
+
+}
+.description h2 {
+    font-weight: bold;
+    color: var(--title-color);
+}
+.description p:nth-child(2) {
+    font-weight: bold;
+    color: var(--text-color);
+}
+.description p:nth-child(3) {
+    color: var(--form-color);
+    font-weight: 400;
+}
+
+form {
+    width: 850px;
+    height: 90px;
+    margin: 36px;
+}
+form label {
+    color: var(--form-color);
+}
+form input {
+    width: 800px;
+    height: 48px;
+    border-radius: none;
+    border: none;
+    border-left: 5px var(--title-color) solid;
+}
+form div {
+    width: 100%;
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form button {
+    width: 48px;
+    height: 48px;
+    border: none;
+    background: var(--bg-button-color) url('./assets/send.svg') no-repeat center;
+    cursor: pointer;
 }
